@@ -1,0 +1,63 @@
+/* components/Banner.module.css */
+.banner {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #010101;
+    z-index: 0;
+    overflow: hidden;
+    border-radius: 40px; 
+    top: 60px;
+    
+    
+}
+  
+  
+  .imagesContainer {
+    position: absolute;
+  
+    
+    width: 80%; /* Adjust width as needed */
+    height: 100%;
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+    align-items: center;
+    gap: 300px;
+  }
+  
+  .image1, .image2, .image3 {
+    
+    width: 220px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    z-index: 1;
+  }
+  
+  .image2 {
+    margin-top: 230px; /* Adjust margin-top for spacing */
+  }
+  
+  
+  .text {
+    position: relative; /* Ensure text is on top */
+    text-align: center;
+    z-index: 1;
+    mix-blend-mode: difference;
+  }
+  
+  .text h1 {
+    font-size: 8rem;
+    font-weight: bold;
+    
+    
+    
+  }
+  
+  .text p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  

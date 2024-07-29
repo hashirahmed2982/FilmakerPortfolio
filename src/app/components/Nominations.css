@@ -1,0 +1,70 @@
+/* src/Nominations.css */
+
+.nominations-section {
+    padding: 60px;
+    display: flex;
+    background-color: #f3f6fa;
+    text-align: left;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .nominations-title {
+    font-size: 5em;
+    margin-bottom: 30px;
+    font-family: Roslindale, Times New Roman, sans-serif;
+    font-weight: 400;
+    color: black;
+  }
+  
+  .nominations-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+  }
+  
+  .nomination-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    object-fit: contain;
+  }
+  
+  .nomination-image {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .nomination-title {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: black;
+
+  }
+  .awards-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .awards-table th, .awards-table td {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    color: black;
+  }
+  
+  .awards-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .awards-section h2 {
+    font-size: 24px;
+  }
+  

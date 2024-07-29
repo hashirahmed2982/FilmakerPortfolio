@@ -1,0 +1,53 @@
+/* src/Accolades.css */
+
+.accolades-section {
+    padding: 20px;
+    background-color: #f3f6fa;
+    text-align: left;
+  }
+  
+  .accolades-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .accolades-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  .accolades-section h1 {
+    font-size: 5em;
+    margin-bottom: 20px;
+    font-family: Roslindale, Times New Roman, sans-serif;
+    font-weight: 400;
+    color: black;
+  }
+  
+  .accolade-item {
+    background-color: f9f9f9;
+   
+    padding: 20px;
+    width: 230px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .accolade-icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .accolade-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .accolade-description {
+    font-size: 0.8rem;
+    color: #555;
+  }
+  

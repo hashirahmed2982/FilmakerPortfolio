@@ -1,0 +1,74 @@
+/* styles/TopNavBar.module.css */
+
+.navbar {
+    /* background-color: #000; */
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 64px;
+  padding-right: 64px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Ensure it stays on top of other elements */
+    grid-column-gap: 158px;
+    background: #0e101285; /* Semi-transparent grey background */
+    backdrop-filter: blur(10px);
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .menu a {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    padding: 5px 0;
+    transition: color 0.3s;
+  }
+  
+  .menu a::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease;
+  }
+  
+  .menu a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  .menu a:hover {
+    color: #ff0;
+  }
+  

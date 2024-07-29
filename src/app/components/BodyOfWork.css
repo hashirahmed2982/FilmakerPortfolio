@@ -1,0 +1,68 @@
+.body-of-work {
+    background-color: #0e1012;
+    color: white;
+    padding: 20px;
+    text-align: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .body-of-work h1 {
+    font-size: 5em;
+    margin-bottom: 20px;
+    font-family: Roslindale, Times New Roman, sans-serif;
+    font-weight: 400;
+    
+  }
+  .separator {
+    width: 100%;
+    height: 1px;
+    background-color: #2e2e2e; /* Light grey color */
+    margin: 35px 0; /* Adjust the spacing as needed */
+
+  }
+  .movie-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .movie {
+    width: 25%;
+    background-color: #0e1012;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+  }
+  
+  .movie h4 {
+    font-size: 1.2em;
+    font-family: Roslindale, Times New Roman, sans-serif;
+    font-weight: 600;
+  }
+  
+  .movie h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .movie img {
+    width: 100%;
+    max-height: 100%;
+    border-radius: 1px;
+    object-fit: cover;
+  }
+  
+  .movie p {
+    font-size: 0.9em;
+    margin-top: 15px;
+  }
+  

@@ -1,0 +1,170 @@
+:root {
+    --shadow: #0e1012;
+    --royal: #1a4572;
+    --black: black;
+    --pale: #f3f6fa;
+    --periwinkle: #e8e5f0;
+    --white: white;
+  }
+  .suspenseful-world1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    text-align: center;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  .text-content1 {
+    margin-top: 200px;
+    max-width: 800px;
+  }
+  
+  .text-content1 h1 {
+    margin-bottom: 20px;
+  }
+  .image-gallery-container {
+    width: 800px; /* Set a fixed width */
+    height: 600px; /* Set a fixed height */
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto; /* Center the container */
+}
+
+/* Styles for the images inside the gallery */
+.image-gallery-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire container */
+}
+  
+  .text-content1 p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  .suspenseful-world {
+    display: flex;
+    flex-direction: row; /* Change direction to row-reverse */
+    height: 100%;
+    padding: 60px 200px; /* Adjusted padding for the whole section */
+    background-color: var(--shadow);
+    color: var(--pale);
+    font-family: 'Arial', sans-serif;
+    position: relative;
+    justify-content: space-between;
+  }
+  
+  .text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px; /* Adjust padding to the left */
+     /* Adjust margin to the right */
+    width: 50%; /* Ensure the text content takes up 40% of the width */
+    color: #333; /* Text color set to dark grey */
+  }
+  
+  .text-content h1 {
+    font-size: 2.2rem; /* Adjusted font size */
+    margin-bottom: 20px;
+    margin-top: 160px; /* Adjusted margin-top */
+    animation: fadeInDown 1.5s ease-out;
+    color: var(--white); /* Header color set to white */
+  }
+  
+  .text-content p {
+    font-size: 1rem; /* Adjusted font size */
+    line-height: 1.6;
+    animation: fadeInUp 1.5s ease-out;
+    color: var(--pale); /* Paragraph text color set to pale */
+  }
+  
+  .video-content {
+    position: relative; /* Change to relative positioning */
+     /* Adjust margin to the left */
+  }
+  
+  .video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    width: 500px; /* Adjusted width */
+    height: 450px;
+  }
+  
+  .video-image {
+    margin-top: 50px; /* Adjusted margin-top */
+    margin-bottom: 20px; /* Adjusted margin-bottom */
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  }
+  
+  .caption {
+    margin-top: 5px;
+    font-size: 3.5rem; /* Adjusted font size */
+    color: #fff; /* Caption text color set to white */
+    width: 80%;
+    
+  }
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Additional styles for cinematic effect */
+.suspenseful-world::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2));
+    z-index: -1;
+    pointer-events: none; /* Ensure this element doesn't interfere with any interactions */
+}

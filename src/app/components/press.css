@@ -1,0 +1,31 @@
+/* src/App.css */
+.video-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .video-item {
+    max-width: 560px;
+  }
+  
+  .video-item h3 {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .contain {
+    text-align: center;
+    padding: 10px;
+    background-color: #f3f6fa;
+    
+  }
+  
+  .App-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the items */
+    gap: 10px; /* Space between cards */
+    padding: 10px;
+    margin-top: 50px;
+  }
