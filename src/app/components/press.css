@@ -1,4 +1,6 @@
 /* src/App.css */
+@import url(https://db.onlinewebfonts.com/c/879269be836bf8d970d4ef4fb0e54f42?family=GT+America+Extended+Regular);
+
 .video-gallery {
     display: flex;
     flex-wrap: wrap;
@@ -18,7 +20,8 @@
     text-align: center;
     padding: 10px;
     background-color: #f3f6fa;
-    
+    font-family: 'GT America Extended Regular';
+    font-weight: 900;
   }
   
   .App-header {

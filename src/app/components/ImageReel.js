@@ -66,14 +66,12 @@ const ImageGallery = () => {
         </clipPath>
         
         <g className="r1 row" >
-          <image href="/2.jpeg" id='box'/>
-          <image href="/3.jpeg" id='box'/>
-          <image href="/4.jpg" id='box'/>
-          <image href="/8.jpeg" className='box'/>
-          <image href="/6.jpeg" className='box'/>
+          <image href="https://7thsky.biz/7skynewweb/wp-content/uploads/2022/03/BZ-1900x843-1-1024x454.jpg" id='box'/>
+          <image href="https://upload.wikimedia.org/wikipedia/en/3/3d/Fitoordrama.jpg" id='box'/>
+          <image href="https://www.magtheweekly.com/assets/uploads/updates/2018-02-17/1819_1003809_updates.jpg" id='box'/>
+          <image href="https://i.pinimg.com/originals/a1/d5/84/a1d58446de0fe50b68f437197bd802dd.jpg" id='box'/>
+          <image href="https://s1.dmcdn.net/v/V25qc1ab9OOyC0UKA/x1080" id='box'/> 
         </g>
-      
-       
       </svg>
    
   );

@@ -1,3 +1,4 @@
+@import url(https://db.onlinewebfonts.com/c/879269be836bf8d970d4ef4fb0e54f42?family=GT+America+Extended+Regular);
 :root {
     --shadow: #0e1012;
     --royal: #1a4572;
@@ -5,6 +6,7 @@
     --pale: #f3f6fa;
     --periwinkle: #e8e5f0;
     --white: white;
+    --primary-font: 'GT America Extended Regular', Helvetica, Arial, sans-serif;
   }
   .suspenseful-world1 {
     display: flex;
@@ -14,6 +16,8 @@
     text-align: center;
     padding: 0px;
     box-sizing: border-box;
+    font-family: var(--primary-font);
+    font-weight: 900;
   }
   
   .text-content1 {
@@ -42,6 +46,7 @@
   .text-content1 p {
     font-size: 18px;
     line-height: 1.6;
+    font-weight: 500;
   }
   .suspenseful-world {
     display: flex;
@@ -50,7 +55,8 @@
     padding: 60px 200px; /* Adjusted padding for the whole section */
     background-color: var(--shadow);
     color: var(--pale);
-    font-family: 'Arial', sans-serif;
+    font-family: var(--primary-font);
+    font-weight: 900;
     position: relative;
     justify-content: space-between;
   }
@@ -74,10 +80,12 @@
   }
   
   .text-content p {
-    font-size: 1rem; /* Adjusted font size */
+    font-size: 18px; /* Adjusted font size */
     line-height: 1.6;
     animation: fadeInUp 1.5s ease-out;
     color: var(--pale); /* Paragraph text color set to pale */
+    font-weight: 500;
+    
   }
   
   .video-content {
@@ -109,7 +117,6 @@
     font-size: 3.5rem; /* Adjusted font size */
     color: #fff; /* Caption text color set to white */
     width: 80%;
-    
   }
 
 @keyframes fadeInLeft {

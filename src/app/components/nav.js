@@ -12,7 +12,7 @@ const TopNavBar = () => {
       transition={{ duration: 0.5, ease: 'easeOut' }}
     >
       <div className={styles.logo}>
-        <h1>Siraj Ul Haque</h1>
+        <h1>SIRAJ UL HAQUE</h1>
       </div>
       <ul className={styles.menu}>
         <li><a href="/">Home</a></li>

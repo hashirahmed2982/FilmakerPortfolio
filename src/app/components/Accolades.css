@@ -1,9 +1,12 @@
 /* src/Accolades.css */
+@import url(https://db.onlinewebfonts.com/c/879269be836bf8d970d4ef4fb0e54f42?family=GT+America+Extended+Regular);
 
 .accolades-section {
     padding: 20px;
     background-color: #f3f6fa;
     text-align: left;
+    font-family: 'GT America Extended Regular';
+    font-weight: 100;
   }
   
   .accolades-title {
@@ -20,8 +23,6 @@
   .accolades-section h1 {
     font-size: 5em;
     margin-bottom: 20px;
-    font-family: Roslindale, Times New Roman, sans-serif;
-    font-weight: 400;
     color: black;
   }
   

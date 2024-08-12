@@ -7,22 +7,44 @@ const BodyOfWork = () => {
       year: '2030',
       title: 'Abyss of Deceptions',
       description: 'A gripping coastal thriller that masterfully combines the serene charm of a coastal setting with an enthralling mystery.',
-      imageUrl: '/2.jpeg',
+      videoUrl: 'https://www.youtube.com/embed/wIAB5RE3_7I',
     },
     {
       year: '2026',
       title: 'The Midnight Enigma',
       description: 'A mind-bending psychological thriller that follows a detective on a race against time to solve a series of cryptic and interconnected mysteries.',
-      imageUrl: '/3.jpeg',
+      videoUrl: 'https://www.youtube.com/embed/a4DtuNceXQQ',
     },
     {
       year: '2023',
       title: 'Shadows of Deceit',
       description: 'A suspenseful noir-inspired thriller where a private investigator delves into a web of conspiracy and intrigue in the dimly lit streets of a mysterious city.',
-      imageUrl: '/4.jpg',
+      videoUrl: 'https://www.youtube.com/embed/7mK1svAd8lI', 
     },
     
+    
   ];
+  const movies2 = [
+    {
+      year: '2030',
+      title: 'Abyss of Deceptions',
+      description: 'A gripping coastal thriller that masterfully combines the serene charm of a coastal setting with an enthralling mystery.',
+      videoUrl: 'https://www.youtube.com/embed/bD4qi95h2eg',
+    },
+    {
+      year: '2026',
+      title: 'The Midnight Enigma',
+      description: 'A mind-bending psychological thriller that follows a detective on a race against time to solve a series of cryptic and interconnected mysteries.',
+      videoUrl: 'https://www.youtube.com/embed/lVXN3Cb0eyA', 
+    },
+    {
+      year: '2023',
+      title: 'Shadows of Deceit',
+      description: 'A suspenseful noir-inspired thriller where a private investigator delves into a web of conspiracy and intrigue in the dimly lit streets of a mysterious city.',
+      videoUrl: 'https://www.youtube.com/embed/Qexkaj0JhN4',  
+    },
+];
+
 
   return (
     <div className="body-of-work">
@@ -33,7 +55,11 @@ const BodyOfWork = () => {
             <h4>{movie.year}</h4>
             <h3>{movie.title}</h3>
             <div className="image-container">
-              <img src={movie.imageUrl} alt={movie.title} />
+            <iframe
+                src={movie.videoUrl}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
             </div>
             <p>{movie.description}</p>
           </div>
@@ -41,12 +67,16 @@ const BodyOfWork = () => {
       </div>
       <div className="separator"></div>
       <div className="movie-list">
-        {movies.map((movie, index) => (
+        {movies2.map((movie, index) => (
           <div className="movie" key={index}>
             <h4>{movie.year}</h4>
             <h3>{movie.title}</h3>
             <div className="image-container">
-              <img src={movie.imageUrl} alt={movie.title} />
+            <iframe
+                src={movie.videoUrl}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
             </div>
             <p>{movie.description}</p>
           </div>

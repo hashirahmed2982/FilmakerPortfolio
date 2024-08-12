@@ -108,8 +108,20 @@ const Banner = () => {
                     className={styles.image1} />
             </motion.div>
             <div className={styles.text}>
-                <h1>Siraj Ul Haque</h1>
+                <h1>SIRAJ UL HAQUE</h1>
                 <p>SINCE - Y:2010</p>
+                <div className={styles.socialLinks}>
+                    <a href="tel:+923432985465" className={styles.socialLink} style={{ color: '#25D366' }} title="Phone">📞</a>
+                    <a href="mailto:seerajfilms@gmail.com" className={styles.socialLink} style={{ color: '#D44638' }} title="Email">✉️</a>
+                    <a href="https://instagram.com/serajulhaqofficial" className={styles.socialLink} style={{ color: '#E1306C' }} title="Instagram">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" alt="Instagram" className={styles.logoImage} />
+                        </a>
+                    <a href="https://pk.linkedin.com/in/siraj-siraj-ul-haque-04a492b" className={styles.socialLink} style={{ color: '#0077B5' }} title="LinkedIn">🔗</a>
+                    <a href="https://www.facebook.com/siraj.u.haque.9" className={styles.socialLink} style={{ color: '#1877F2' }} title="Facebook">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/480px-Facebook_logo_%28square%29.png" alt="Facebook" className={styles.logoImage} />
+                        </a>
+                    <a href="https://en.wikipedia.org/wiki/Siraj-ul-Haque" className={styles.socialLink} style={{ color: '#000000' }} title="Wikipedia">🌐</a>
+                </div>
             </div>
             <div className={styles.scrollDown} onClick={toggleSections}>
                 <motion.div
@@ -123,6 +135,7 @@ const Banner = () => {
                     </svg>
                 </motion.div>
             </div>
+            
            
         </div></>
     );

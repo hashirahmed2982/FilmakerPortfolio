@@ -1,4 +1,5 @@
 /* styles/TopNavBar.module.css */
+@import url(https://db.onlinewebfonts.com/c/879269be836bf8d970d4ef4fb0e54f42?family=GT+America+Extended+Regular);
 
 .navbar {
     /* background-color: #000; */
@@ -11,7 +12,8 @@
     padding-left: 64px;
   padding-right: 64px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'GT America Extended Regular';
+    font-weight: 900;
     position: fixed;
     top: 0;
     left: 0;
@@ -24,7 +26,6 @@
   
   .logo h1 {
     font-size: 24px;
-    font-weight: 600;
     margin: 0;
   }
   

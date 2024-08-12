@@ -1,16 +1,17 @@
+@import url(https://db.onlinewebfonts.com/c/879269be836bf8d970d4ef4fb0e54f42?family=GT+America+Extended+Regular);
+
 .body-of-work {
     background-color: #0e1012;
     color: white;
     padding: 20px;
     text-align: right;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'GT America Extended Regular';
+    font-weight: 900;
   }
   
   .body-of-work h1 {
     font-size: 5em;
     margin-bottom: 20px;
-    font-family: Roslindale, Times New Roman, sans-serif;
-    font-weight: 400;
     
   }
   .separator {
@@ -28,6 +29,7 @@
   
   .movie {
     width: 25%;
+    height: 500px;
     background-color: #0e1012;
     padding: 10px;
     border-radius: 5px;
@@ -36,8 +38,6 @@
   
   .movie h4 {
     font-size: 1.2em;
-    font-family: Roslindale, Times New Roman, sans-serif;
-    font-weight: 600;
   }
   
   .movie h3 {
@@ -46,23 +46,25 @@
   }
   
   .image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-    margin-bottom: 10px;
-    
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (9/16 * 100) */
+    overflow: hidden;
   }
   
-  .movie img {
+  .movie iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    max-height: 100%;
-    border-radius: 1px;
+    height: 100%;
+    border-radius: 5px; /* Add a border-radius to match the design */
     object-fit: cover;
   }
   
   .movie p {
-    font-size: 0.9em;
+    font-size: 16px;
     margin-top: 15px;
+    font-weight: 500;
   }
   

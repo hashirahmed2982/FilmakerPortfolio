@@ -46,7 +46,7 @@ const About = () => {
                 
                 <div className="video-content" data-aos="fade-left">
                     <div className="video-container">
-                        <h1 className="caption">Journey of Siraj ul Haque</h1>
+                        <h1 className="caption">SIRAJ UL HAQUE</h1>
                         <img src="/bio.jpg" alt="The Midnight Enigma" className="video-image" />
 
                     </div>

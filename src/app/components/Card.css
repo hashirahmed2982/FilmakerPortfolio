@@ -1,10 +1,13 @@
 /* src/components/Card.css */
+@import url(https://db.onlinewebfonts.com/c/879269be836bf8d970d4ef4fb0e54f42?family=GT+America+Extended+Regular);
+
 .card {
     border: 1px solid #ccc;
     padding: 20px;
     border-radius: 10px;
     width: 300px;
-    font-family: 'Arial, sans-serif';
+    font-family: 'GT America Extended Regular';
+    font-weight: 900;
     line-height: 1.6;
     margin: 10px;
     height: 700px;
@@ -25,6 +28,7 @@
   .card p {
     margin: 0 0 10px;
     color: black;
+    font-weight: 500;
   }
   
   .card .more {
