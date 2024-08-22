@@ -3,16 +3,23 @@
 .body-of-work {
     background-color: #0e1012;
     color: white;
-    padding: 20px;
-    text-align: right;
+    text-align: center;
     font-family: 'GT America Extended Regular';
     font-weight: 900;
   }
+
+  .left-sidebar {
+    width: 2%;
+    margin-right: 100%;
+    padding-top: 12%;
+    padding-left: 5%;
+  }
   
   .body-of-work h1 {
-    font-size: 5em;
-    margin-bottom: 20px;
     
+    font-size: 4em;
+    transform: rotate(-90deg);
+    white-space: nowrap;
   }
   .separator {
     width: 100%;
@@ -22,11 +29,18 @@
 
   }
   .movie-list {
+    padding-left: 200px;
+    padding-top: 200px;
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
   }
-  
+  .movie-list2 {
+    padding-left: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
   .movie {
     width: 25%;
     height: 500px;

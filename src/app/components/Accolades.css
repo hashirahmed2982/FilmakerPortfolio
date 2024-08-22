@@ -2,7 +2,7 @@
 @import url(https://db.onlinewebfonts.com/c/879269be836bf8d970d4ef4fb0e54f42?family=GT+America+Extended+Regular);
 
 .accolades-section {
-    padding: 20px;
+    padding: 60px;
     background-color: #f3f6fa;
     text-align: left;
     font-family: 'GT America Extended Regular';
@@ -21,7 +21,8 @@
     gap: 30px;
   }
   .accolades-section h1 {
-    font-size: 5em;
+    font-size: 4em;
+    text-align: left;
     margin-bottom: 20px;
     color: black;
   }

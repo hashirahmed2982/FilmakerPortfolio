@@ -14,8 +14,31 @@
     top: 60px;
     font-family: 'GT America Extended Regular';
     font-weight: 900;
+    width: 100%;
 }
-  
+.videoContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.videoContainer video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.videoContainer video.active {
+  opacity: 1;
+}
   
   .imagesContainer {
     position: absolute;
@@ -82,7 +105,7 @@
 }
 
 .socialLink:hover {
-    color: #555;
+    color: white;
 }
 
 .logoImage {

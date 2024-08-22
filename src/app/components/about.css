@@ -56,7 +56,7 @@
     background-color: var(--shadow);
     color: var(--pale);
     font-family: var(--primary-font);
-    font-weight: 900;
+    font-weight: 500;
     position: relative;
     justify-content: space-between;
   }
@@ -80,7 +80,7 @@
   }
   
   .text-content p {
-    font-size: 18px; /* Adjusted font size */
+    font-size: 16px; /* Adjusted font size */
     line-height: 1.6;
     animation: fadeInUp 1.5s ease-out;
     color: var(--pale); /* Paragraph text color set to pale */

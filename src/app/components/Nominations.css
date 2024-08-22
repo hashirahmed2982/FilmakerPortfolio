@@ -1,4 +1,5 @@
 /* src/Nominations.css */
+@import url(https://db.onlinewebfonts.com/c/879269be836bf8d970d4ef4fb0e54f42?family=GT+America+Extended+Regular);
 
 .nominations-section {
     padding: 60px;
@@ -6,15 +7,16 @@
     background-color: #f3f6fa;
     text-align: left;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
+    font-family: 'GT America Extended Regular';
+    font-weight: 900;
   }
   
   .nominations-title {
-    font-size: 5em;
+    font-size: 4em;
     margin-bottom: 30px;
-    font-family: Roslindale, Times New Roman, sans-serif;
-    font-weight: 400;
     color: black;
+    text-align: left;
   }
   
   .nominations-list {
@@ -50,6 +52,7 @@
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
+    font-weight: 500;
   }
   
   .awards-table th, .awards-table td {

@@ -15,9 +15,9 @@ const TopNavBar = () => {
         <h1>SIRAJ UL HAQUE</h1>
       </div>
       <ul className={styles.menu}>
-        <li><a href="/">Home</a></li>
-        <li><a href="/filmography">Filmography</a></li>
-        <li><a href="/books">Books</a></li>
+        <li><a href="/">HOME</a></li>
+        <li><a href="/filmography">FILMOGRAPHY</a></li>
+        <li><a href="/books">BOOKS</a></li>
       </ul>
     </motion.nav>
   );

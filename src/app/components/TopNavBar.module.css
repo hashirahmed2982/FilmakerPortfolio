@@ -20,7 +20,7 @@
     right: 0;
     z-index: 1000; /* Ensure it stays on top of other elements */
     grid-column-gap: 158px;
-    background: #0e101285; /* Semi-transparent grey background */
+    background: #120e0f85; /* Semi-transparent grey background */
     backdrop-filter: blur(10px);
   }
   
@@ -34,11 +34,11 @@
     display: flex;
     gap: 30px;
     margin: 0;
-    padding: 0;
+    padding: 10px;
   }
   
   .menu li {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
     transition: color 0.3s;
   }
@@ -70,6 +70,6 @@
   }
   
   .menu a:hover {
-    color: #ff0;
+    color: red;
   }
   

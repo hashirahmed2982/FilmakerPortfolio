@@ -48,8 +48,8 @@ const BodyOfWork = () => {
 
   return (
     <div className="body-of-work">
-      <h1>Most Popular Works</h1>
       <div className="movie-list">
+      
         {movies.map((movie, index) => (
           <div className="movie" key={index}>
             <h4>{movie.year}</h4>
@@ -65,8 +65,14 @@ const BodyOfWork = () => {
           </div>
         ))}
       </div>
-      <div className="separator"></div>
-      <div className="movie-list">
+      
+      
+      
+      <div className="separator"> <div class="left-sidebar">
+        <h1>Most Popular Works</h1>
+      </div> </div>
+      <div className="movie-list2">
+      
         {movies2.map((movie, index) => (
           <div className="movie" key={index}>
             <h4>{movie.year}</h4>
@@ -81,7 +87,9 @@ const BodyOfWork = () => {
             <p>{movie.description}</p>
           </div>
         ))}
+        
       </div>
+      
     </div>
   );
 };
