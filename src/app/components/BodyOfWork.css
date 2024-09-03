@@ -1,7 +1,7 @@
 @import url(https://db.onlinewebfonts.com/c/879269be836bf8d970d4ef4fb0e54f42?family=GT+America+Extended+Regular);
 
 .body-of-work {
-    background-color: #0e1012;
+   
     color: white;
     text-align: center;
     font-family: 'GT America Extended Regular';
@@ -40,11 +40,12 @@
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
+    margin-bottom: 40px;
   }
   .movie {
     width: 25%;
-    height: 500px;
-    background-color: #0e1012;
+    height: auto;
+    
     padding: 10px;
     border-radius: 5px;
     text-align: left;

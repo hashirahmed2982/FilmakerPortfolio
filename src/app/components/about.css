@@ -69,6 +69,7 @@
      /* Adjust margin to the right */
     width: 50%; /* Ensure the text content takes up 40% of the width */
     color: #333; /* Text color set to dark grey */
+    margin-top: 3;
   }
   
   .text-content h1 {
@@ -116,7 +117,7 @@
     margin-top: 5px;
     font-size: 3.5rem; /* Adjusted font size */
     color: #fff; /* Caption text color set to white */
-    width: 80%;
+    width: 110%;
   }
 
 @keyframes fadeInLeft {

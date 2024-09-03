@@ -16,6 +16,12 @@
     text-align: center;
     margin-top: 10px;
   }
+  .nominations-title {
+    font-size: 4em;
+    margin-bottom: 30px;
+    color: black;
+    text-align: center;
+  }
   .contain {
     text-align: center;
     padding: 10px;

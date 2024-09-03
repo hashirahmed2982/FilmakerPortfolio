@@ -36,7 +36,7 @@ const accoladesData = [
 const Accolades = () => {
   return (
     <div className="accolades-section">
-         <h1>Accolades</h1>
+         <h1 className="nominations-title">Accolades</h1>
       
       <div className="accolades-list">
         {accoladesData.map((accolade, index) => (

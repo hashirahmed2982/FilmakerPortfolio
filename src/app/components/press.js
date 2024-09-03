@@ -44,7 +44,7 @@ const Press = () => {
 
   return (
     <div className="contain">
-      <h1>Press</h1>
+      <h1 className="nominations-title">Press</h1>
       <VideoSlider videos={videoData} />
       <header className="App-header">
         {articles.map((article, index) => (

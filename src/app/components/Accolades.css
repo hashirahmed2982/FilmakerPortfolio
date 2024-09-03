@@ -4,11 +4,16 @@
 .accolades-section {
     padding: 60px;
     background-color: #f3f6fa;
-    text-align: left;
+    text-align: center;
     font-family: 'GT America Extended Regular';
     font-weight: 100;
   }
-  
+  .nominations-title {
+    font-size: 4em;
+    margin-bottom: 30px;
+    color: black;
+    text-align: center;
+  }
   .accolades-title {
     font-size: 2rem;
     margin-bottom: 20px;
@@ -22,7 +27,7 @@
   }
   .accolades-section h1 {
     font-size: 4em;
-    text-align: left;
+    text-align: center;
     margin-bottom: 20px;
     color: black;
   }

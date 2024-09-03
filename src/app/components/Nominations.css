@@ -5,9 +5,9 @@
     padding: 60px;
     display: flex;
     background-color: #f3f6fa;
-    text-align: left;
+    text-align: center;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
     font-family: 'GT America Extended Regular';
     font-weight: 900;
   }
@@ -16,7 +16,7 @@
     font-size: 4em;
     margin-bottom: 30px;
     color: black;
-    text-align: left;
+    text-align: center;
   }
   
   .nominations-list {
