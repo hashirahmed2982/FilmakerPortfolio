@@ -4,44 +4,44 @@ import './BodyOfWork.css';
 const BodyOfWork = () => {
   const movies = [
     {
-      year: '2030',
-      title: 'Abyss of Deceptions',
-      description: 'A gripping coastal thriller that masterfully combines the serene charm of a coastal setting with an enthralling mystery.',
+      year: '2023',
+      title: 'Sukoon',
+      description: 'A romantic drama exploring the themes of love, sacrifice, and fate. With strong emotions and intense relationships, the drama highlights the impact of choices on destiny',
+      videoUrl: 'https://www.youtube.com/embed/YjR_Sfnsxq4',
+    },
+    {
+      year: '2022',
+      title: 'Tere Bin',
+      description: 'A passionate love story between two individuals from different worlds, filled with intense emotions and misunderstandings',
       videoUrl: 'https://www.youtube.com/embed/wIAB5RE3_7I',
     },
     {
-      year: '2026',
-      title: 'The Midnight Enigma',
-      description: 'A mind-bending psychological thriller that follows a detective on a race against time to solve a series of cryptic and interconnected mysteries.',
-      videoUrl: 'https://www.youtube.com/embed/a4DtuNceXQQ',
-    },
-    {
-      year: '2023',
-      title: 'Shadows of Deceit',
-      description: 'A suspenseful noir-inspired thriller where a private investigator delves into a web of conspiracy and intrigue in the dimly lit streets of a mysterious city.',
-      videoUrl: 'https://www.youtube.com/embed/7mK1svAd8lI', 
+      year: '2021',
+      title: 'Fitoor',
+      description: 'A tale of love, obesession, and betrayal, where past relationships impact the present.',
+      videoUrl: 'https://www.youtube.com/embed/a4DtuNceXQQ', 
     },
     
     
   ];
   const movies2 = [
     {
-      year: '2030',
-      title: 'Abyss of Deceptions',
-      description: 'A gripping coastal thriller that masterfully combines the serene charm of a coastal setting with an enthralling mystery.',
+      year: '2020',
+      title: 'Raaz E Ulfat',
+      description: 'A story about a young woman torn between love and family expectations, facing the consequences of her choices.',
       videoUrl: 'https://www.youtube.com/embed/bD4qi95h2eg',
     },
     {
-      year: '2026',
-      title: 'The Midnight Enigma',
-      description: 'A mind-bending psychological thriller that follows a detective on a race against time to solve a series of cryptic and interconnected mysteries.',
-      videoUrl: 'https://www.youtube.com/embed/lVXN3Cb0eyA', 
+      year: '2018',
+      title: 'Koi Chand Rakh',
+      description: 'A heart wrenching love triangle involving unrequited love, betrayal, and destiny.',
+      videoUrl: 'https://www.youtube.com/embed/bTfiCRPxVlI', 
     },
     {
-      year: '2023',
-      title: 'Shadows of Deceit',
-      description: 'A suspenseful noir-inspired thriller where a private investigator delves into a web of conspiracy and intrigue in the dimly lit streets of a mysterious city.',
-      videoUrl: 'https://www.youtube.com/embed/Qexkaj0JhN4',  
+      year: '2014',
+      title: 'Bunty I Love You',
+      description: 'A unique story of a young widow seeking love and independence in a judgemental society.',
+      videoUrl: 'https://www.youtube.com/embed/LritlBiLSpo',  
     },
 ];
 
@@ -68,7 +68,7 @@ const BodyOfWork = () => {
       
       
       
-      <div className="separator"> <div class="left-sidebar">
+      <div className="separator"> <div className="left-sidebar">
         <h1>Most Popular Works</h1>
       </div> </div>
       <div className="movie-list2">

@@ -29,7 +29,7 @@ const Press = () => {
     },
     {
         title: "In Conversation with Tere Bin director SIRAJ UL HAQ",
-        description: "Geo Television currently aired drama serial, Tere Bin has reached a new pinnacle of success with a tremendous response on social media. The drama’s first three episodes were on the top 3 trends on YouTube and each episode consistently completed over one million views within just an hour of its upload on YouTube. The mind-blowing chemistry of Yumna Zaidi and Wahaj Ali, the  ...",
+        description: "Geo Television currently aired drama serial, Tere Bin has reached a new pinnacle of success with a tremendous response on social media. The drama’s first three episodes were on the top 3 trends on YouTube and each episode consistently completed over one million views within just an hour of its upload on YouTube. The mind-blowing chemistry of Yumna Zaidi ...",
         moreLink: "https://magtheweekly.com/detail/17763-in-conversation-with-tere-bin-director-siraj-ul-haq",
         imageUrl: "a3.jpg" // Replace with actual image path
       },

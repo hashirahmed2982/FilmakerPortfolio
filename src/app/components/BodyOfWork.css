@@ -82,4 +82,52 @@
     margin-top: 15px;
     font-weight: 500;
   }
+  /* Responsive Design */
+@media (max-width: 1024px) {
+  .body-of-work h1 {
+      font-size: 3em;
+  }
+
+  .movie-list, .movie-list2 {
+      flex-direction: column;
+      align-items: center;
+      padding: 30px 10%;
+  }
+
+  .movie {
+      width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .body-of-work h1 {
+      font-size: 2.5em;
+  }
+
+  .left-sidebar {
+      display: none; /* Hide sidebar on small screens */
+  }
+
+  .movie-list, .movie-list2 {
+      gap: 20px;
+      padding: 20px 5%;
+  }
+
+  .movie {
+      width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .body-of-work h1 {
+      font-size: 2em;
+      transform: none;
+      text-align: center;
+  }
+
+  .movie {
+      width: 100%;
+  }
+}
+
   

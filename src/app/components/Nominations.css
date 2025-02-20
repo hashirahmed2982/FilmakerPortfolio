@@ -42,9 +42,9 @@
     margin-bottom: 10px;
   }
   
-  .nomination-title {
+  .nominations-section, .nomination-title h2 {
     margin-top: 20px;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     color: black;
 
   }
@@ -70,4 +70,86 @@
   .awards-section h2 {
     font-size: 24px;
   }
-  
+  /* RESPONSIVENESS */
+@media (max-width: 1024px) {
+  .nominations-section, .nomination-title h2 {
+      font-size: 1.0rem;
+  }
+
+  .nominations-list {
+      gap: 30px;
+  }
+
+  .nomination-item {
+      width: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nominations-section, .nomination-title h2 {
+      font-size: 0.8rem;
+  }
+
+  .nominations-section {
+      padding: 40px 5%;
+  }
+
+  .nomination-item {
+      width: 220px;
+  }
+
+  .awards-table {
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+  }
+}
+
+@media (max-width: 480px) {
+  .nominations-section, .nomination-title h2 {
+      font-size: 0.5rem;
+  }
+
+  .nominations-section {
+      padding: 30px 3%;
+  }
+
+  .nomination-item {
+      width: 100%;
+  }
+
+  .nomination-image {
+      max-width: 200px;
+      height: 250px;
+  }
+}
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+
+.slider {
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: auto;
+  background-color: #f3f6fa;
+}
+
+.slide-track {
+  animation: scroll 40s linear infinite;
+  display: flex;
+  width: calc(250px * 14);
+}
+
+.slide {
+  height: 100px;
+  width: 250px;
+}
